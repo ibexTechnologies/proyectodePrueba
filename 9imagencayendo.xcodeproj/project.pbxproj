@@ -17,6 +17,7 @@
 		67FE554A1C5BEEA200BD7989 /* _imagencayendoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE55491C5BEEA200BD7989 /* _imagencayendoTests.m */; };
 		67FE55551C5BEEA200BD7989 /* _imagencayendoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE55541C5BEEA200BD7989 /* _imagencayendoUITests.m */; };
 		67FE55631C5BEEE400BD7989 /* descarga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 67FE55621C5BEEE400BD7989 /* descarga.jpeg */; };
+		FFFDC4E01D4A69DB00E9B63C /* filepruebaupdate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFDC4DF1D4A69DB00E9B63C /* filepruebaupdate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		67FE55541C5BEEA200BD7989 /* _imagencayendoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _imagencayendoUITests.m; sourceTree = "<group>"; };
 		67FE55561C5BEEA200BD7989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67FE55621C5BEEE400BD7989 /* descarga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = descarga.jpeg; sourceTree = "<group>"; };
+		FFFDC4DF1D4A69DB00E9B63C /* filepruebaupdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = filepruebaupdate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				67FE55401C5BEEA200BD7989 /* Info.plist */,
 				67FE55381C5BEEA200BD7989 /* _imagencayendo.xcdatamodeld */,
 				67FE552C1C5BEEA200BD7989 /* Supporting Files */,
+				FFFDC4DF1D4A69DB00E9B63C /* filepruebaupdate.m */,
 			);
 			path = 9imagencayendo;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				67FE55341C5BEEA200BD7989 /* ViewController.m in Sources */,
 				67FE55311C5BEEA200BD7989 /* AppDelegate.m in Sources */,
+				FFFDC4E01D4A69DB00E9B63C /* filepruebaupdate.m in Sources */,
 				67FE553A1C5BEEA200BD7989 /* _imagencayendo.xcdatamodeld in Sources */,
 				67FE552E1C5BEEA200BD7989 /* main.m in Sources */,
 			);
@@ -507,6 +511,7 @@
 				67FE555B1C5BEEA200BD7989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67FE555C1C5BEEA200BD7989 /* Build configuration list for PBXNativeTarget "9imagencayendoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				67FE555E1C5BEEA200BD7989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67FE555F1C5BEEA200BD7989 /* Build configuration list for PBXNativeTarget "9imagencayendoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				67FE55611C5BEEA200BD7989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
