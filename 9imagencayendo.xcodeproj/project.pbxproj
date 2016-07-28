@@ -18,6 +18,7 @@
 		67FE55551C5BEEA200BD7989 /* _imagencayendoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE55541C5BEEA200BD7989 /* _imagencayendoUITests.m */; };
 		67FE55631C5BEEE400BD7989 /* descarga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 67FE55621C5BEEE400BD7989 /* descarga.jpeg */; };
 		FFFDC4E01D4A69DB00E9B63C /* filepruebaupdate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFDC4DF1D4A69DB00E9B63C /* filepruebaupdate.m */; };
+		FFFDC4E21D4A6A6B00E9B63C /* Archivo_vacio in Resources */ = {isa = PBXBuildFile; fileRef = FFFDC4E11D4A6A6B00E9B63C /* Archivo_vacio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		67FE55561C5BEEA200BD7989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67FE55621C5BEEE400BD7989 /* descarga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = descarga.jpeg; sourceTree = "<group>"; };
 		FFFDC4DF1D4A69DB00E9B63C /* filepruebaupdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = filepruebaupdate.m; sourceTree = "<group>"; };
+		FFFDC4E11D4A6A6B00E9B63C /* Archivo_vacio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Archivo_vacio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		67FE55201C5BEEA200BD7989 = {
 			isa = PBXGroup;
 			children = (
+				FFFDC4E11D4A6A6B00E9B63C /* Archivo_vacio */,
 				67FE55621C5BEEE400BD7989 /* descarga.jpeg */,
 				67FE552B1C5BEEA200BD7989 /* 9imagencayendo */,
 				67FE55481C5BEEA200BD7989 /* 9imagencayendoTests */,
@@ -216,7 +219,6 @@
 				TargetAttributes = {
 					67FE55281C5BEEA200BD7989 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = P23Q585AK2;
 					};
 					67FE55441C5BEEA200BD7989 = {
 						CreatedOnToolsVersion = 7.2;
@@ -257,6 +259,7 @@
 			files = (
 				67FE553F1C5BEEA200BD7989 /* LaunchScreen.storyboard in Resources */,
 				67FE553C1C5BEEA200BD7989 /* Assets.xcassets in Resources */,
+				FFFDC4E21D4A6A6B00E9B63C /* Archivo_vacio in Resources */,
 				67FE55371C5BEEA200BD7989 /* Main.storyboard in Resources */,
 				67FE55631C5BEEE400BD7989 /* descarga.jpeg in Resources */,
 			);
@@ -426,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = 9imagencayendo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alam.-imagencayendo";
@@ -437,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = 9imagencayendo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alam.-imagencayendo";
