@@ -16,6 +16,7 @@
 		67FE553F1C5BEEA200BD7989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FE553D1C5BEEA200BD7989 /* LaunchScreen.storyboard */; };
 		67FE554A1C5BEEA200BD7989 /* _imagencayendoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE55491C5BEEA200BD7989 /* _imagencayendoTests.m */; };
 		67FE55551C5BEEA200BD7989 /* _imagencayendoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE55541C5BEEA200BD7989 /* _imagencayendoUITests.m */; };
+		67FE55631C5BEEE400BD7989 /* descarga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 67FE55621C5BEEE400BD7989 /* descarga.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		67FE55501C5BEEA200BD7989 /* 9imagencayendoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 9imagencayendoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FE55541C5BEEA200BD7989 /* _imagencayendoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _imagencayendoUITests.m; sourceTree = "<group>"; };
 		67FE55561C5BEEA200BD7989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FE55621C5BEEE400BD7989 /* descarga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = descarga.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		67FE55201C5BEEA200BD7989 = {
 			isa = PBXGroup;
 			children = (
+				67FE55621C5BEEE400BD7989 /* descarga.jpeg */,
 				67FE552B1C5BEEA200BD7989 /* 9imagencayendo */,
 				67FE55481C5BEEA200BD7989 /* 9imagencayendoTests */,
 				67FE55531C5BEEA200BD7989 /* 9imagencayendoUITests */,
@@ -252,6 +255,7 @@
 				67FE553F1C5BEEA200BD7989 /* LaunchScreen.storyboard in Resources */,
 				67FE553C1C5BEEA200BD7989 /* Assets.xcassets in Resources */,
 				67FE55371C5BEEA200BD7989 /* Main.storyboard in Resources */,
+				67FE55631C5BEEE400BD7989 /* descarga.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
